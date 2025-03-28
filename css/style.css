@@ -1,0 +1,19 @@
+* {
+    font-family: Calibri;
+  }
+
+  table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}

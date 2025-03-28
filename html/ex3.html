@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen's Homework 8</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<center>
+
+    <body>
+        <h1><a href="../index.html">Main Page</a></a></h1>
+        <h2>Nguyen's Example 3</h2>
+
+    </center>
+
+    <div>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        
+        <h3>Countries Visited</h3>
+        <div id="countriesList">
+            <input type="text" placeholder="Country" id="country">
+            <input type="number" placeholder="Year" id="year">
+            <button onclick="addCountry()">Add</button>
+        </div>
+
+        <ul id="countryDisplay"></ul>
+
+        <button onclick="sendData()">Submit</button>
+    </div>
+
+
+
+<div id="content"></div>
+<script src="../js/ex3.js"></script>
+</body>
+
+</html>

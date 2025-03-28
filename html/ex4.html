@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen's Homework 8</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<center>
+
+    <body>
+        <h1><a href="../index.html">Main Page</a></a></h1>
+        <h2>Nguyen's Example 4</h2>
+        <form id="sampleForm">
+            <label>Name: <input type="text" name="Name"></label><br><br>
+
+            <label>Email: <input type="email" name="Email" placeholder="name@domain"></label><br><br>
+
+            <label>Payment Type:</label><br>
+            <input type="radio" name="Payment" value="CASH"> Cash<br>
+            <input type="radio" name="Payment" value="CC"> Credit Card<br>
+            <input type="radio" name="Payment" value="GPAY"> Google Pay<br>
+            <input type="radio" name="Payment" value="APAY"> Apple Pay<br><br>
+
+            <label><input type="checkbox" name="Promotion"> Sign me up for special promotions</label><br><br>
+
+            <label>Preferred Location:
+                <select name="Location">
+                    <option value="LA">Los Angeles</option>
+                    <option value="OC">Orange County</option>
+                    <option value="RV">Riverside</option>
+                    <option value="SD">San Diego</option>
+                </select>
+            </label><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Cancel</button>
+        </form>
+
+        <table id="dataTable" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Key</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+</center>
+
+
+<script src="../js/ex4.js"></script>
+</body>
+
+</html>
